@@ -24,7 +24,7 @@
   <button @click="toggleText" v-bind:class="{'log-btn': this.$parent.show == false, 'log-btn-clicked': this.$parent.show}">{{text}}</button>
 </template>
 
-<style>
+<style scoped>
   .log-btn {
     background-color: var(--purple-color);
     padding: 5px 16px;

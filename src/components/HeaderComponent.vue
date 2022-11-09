@@ -39,7 +39,9 @@
       <span class="dot"></span>
       <p class="user-name">{{getFullName(user.name, user.surname)}}</p>
     </div>
-    <Button />
+    <!-- The onclick event is a primitive and stupid way to give App component the show value -->
+    <!-- $emit wouldnt work because button is in another subchild component ... but it works xd -->
+    <Button @click="this.$parent.show = show" />
   </div>
 </template>
 
