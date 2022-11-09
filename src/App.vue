@@ -10,7 +10,7 @@
     },
     data() {
       return {
-        show: false
+        show: false   
       }
     }
   }
@@ -21,4 +21,6 @@
   <BodyComponent v-if="show" />
 </template>
 
-<style></style>
+<style scoped>
+
+</style>
