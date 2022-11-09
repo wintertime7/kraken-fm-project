@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@0,300;0,500;1,300&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+:root {
+  --background-color: #191621;
+  --gray-color: #45404b;
+  --white-color: #edf0f1;
+  --purple-color: #8645e8;
+  --purple-hover: #985ef0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+}
