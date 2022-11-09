@@ -51,7 +51,7 @@
     width: 85%;
     text-align: left;
     background-color: var(--purple-color);
-    clip-path: polygon(100% 0, 90% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 92% 100%, 0 100%, 0 0);
     padding: 10px 0 10px 20px;
     border: none;
     cursor: pointer;

@@ -45,7 +45,7 @@
   }
 
   .element-area {
-    background-color: lightcoral;
+    display: flex;
     flex: 6;
   }
 </style>
